@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!--------------------------------------------------------- Navigation bar ----------------------------------------------------------------->
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark"">
+      <div class="container-fluid">
+        
+        <a class="navbar-brand" href="#"><img src="assets/download.jpeg" alt="" width="70px" height="40px" style="border-radius: 50%;">Crypto Market</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#" onclick="display_home()" id="home-link">Home</a>
+            </li>
+            
+
+            <li class="nav-item">
+              <a class="nav-link" href="#" onclick="display_signUp()" id="sign-up-link">Register</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#" onclick="display_login()" id="login-link">Login</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    
+    <!--------------------------------------------------------- Home page ----------------------------------------------------------------->
+
+    
+      <div id="home">
+
+        <div class="header">
+          <h1>Crypto Market</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem quod numquam, neque veritatis aperiam obcaecati illo, illum aspernatur enim ad odio quibusdam deleniti, facere velit quas optio quae corrupti quidem!</p>
+        </div>
+  
+          <div class="row row-cols-1 row-cols-md-4 g-4" id="grid">
+            <div class="col">
+              <div class="card bg-dark">
+                <img src="btc.avif" class="card-img-top" height="250px">
+                <div class="card-body">
+                  <div class="description">
+                      <h5 class="card-title">Bitcoin</h5>
+                      <p>Price: $19,085.95</p>
+                  </div>
+                
+                  <div class="btn1">
+                      <a href="#" class="btn btn-success" style="width:100px;">Buy</a>
+                      <a href="#" class="btn btn-danger " style="width:100px;">Sell</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+    
+    
+            <div class="col">
+              <div class="card bg-dark">
+                <img src="eth.avif" class="card-img-top" height="250px">
+                <div class="card-body">
+                  <div class="description">
+                    <h5 class="card-title">Ethereum</h5>
+                    <p>$1,329.20</p>
+                  </div>
+                  
+                  <div class="btn1">
+                    <a href="#" class="btn btn-success" style="width:100px;">Buy</a>
+                    <a href="#" class="btn btn-danger " style="width:100px;">Sell</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+    
+    
+            <div class="col">
+              <div class="card bg-dark">
+                <img src="teh.avif" class="card-img-top" height="250px">
+                <div class="card-body">
+                  <div class="description">
+                    <h5 class="card-title">Tether</h5>
+                    <p>Price: $1.00</p>
+                  </div>
+                  
+                  <div class="btn1">
+                    <a href="#" class="btn btn-success" style="width:100px;">Buy</a>
+                    <a href="#" class="btn btn-danger " style="width:100px;">Sell</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+    
+    
+            <div class="col">
+              <div class="card bg-dark">
+                <img src="usd.avif" class="card-img-top" height="250px">
+                <div class="card-body">
+                  <div class="description">
+                    <h5 class="card-title">USD coin</h5>
+                    <p>Price: $1.00</p>
+                  </div>
+                  
+                  <div class="btn1">
+                    <a href="#" class="btn btn-success" style="width:100px;">Buy</a>
+                    <a href="#" class="btn btn-danger " style="width:100px;">Sell</a>
+                  </div>
+                </div>
+              </div>
+          </div>
+    
+    
+            <div class="col">
+              <div class="card bg-dark">
+                <img src="bnb.png" class="card-img-top" height="250px">
+                <div class="card-body">
+                  <div class="description">
+                    <h5 class="card-title">BNB</h5>
+                    <p>Price: $278.53</p>
+                  </div>
+                  
+                  <div class="btn1">
+                    <a href="#" class="btn btn-success" style="width:100px;">Buy</a>
+                    <a href="#" class="btn btn-danger " style="width:100px;">Sell</a>
+                  </div>
+                </div>
+              </div>
+          </div>
+    
+    
+            <div class="col">
+              <div class="card bg-dark">
+                <img src="xrp.jpg" class="card-img-top" height="250px">
+                <div class="card-body">
+                  <div class="description">
+                    <h5 class="card-title">XRP</h5>
+                    <p>Price: $0.5069</p>
+                  </div>
+                  
+                  <div class="btn1">
+                    <a href="#" class="btn btn-success" style="width:100px;">Buy</a>
+                    <a href="#" class="btn btn-danger " style="width:100px;">Sell</a>
+                  </div>
+                </div>
+              </div>
+          </div>
+    
+    
+            <div class="col">
+              <div class="card bg-dark">
+                <img src="bnb usd.jpg" class="card-img-top" height="250px">
+                <div class="card-body">
+                  <div class="description">
+                    <h5 class="card-title">Binance USD</h5>
+                    <p>Price: $1</p>
+                  </div>
+                  
+                  <div class="btn1">
+                    <a href="#" class="btn btn-success" style="width:100px;">Buy</a>
+                    <a href="#" class="btn btn-danger " style="width:100px;">Sell</a>
+                  </div>
+                </div>
+              </div>
+          </div>
+    
+    
+            <div class="col">
+              <div class="card bg-dark">
+                <img src="cardano.avif" class="card-img-top" height="250px">
+                <div class="card-body">
+                  <div class="description">
+                    <h5 class="card-title">Cardano</h5>
+                    <p>Price: $$0.46</p>
+                  </div>
+                  
+                  <div class="btn1">
+                    <a href="#" class="btn btn-success" style="width:100px;">Buy</a>
+                    <a href="#" class="btn btn-danger " style="width:100px;">Sell</a>
+                  </div>
+                </div>
+              </div>
+          </div>
+          
+        </div>
+      </div>
+      
+
+<!--------------------------------------------------------- Sign-up form ----------------------------------------------------------------->
+
+<div id="sign-up-form">
+  <form class="row g-3" id="sign-up-form-reset">
+    <h1 style="text-align: center;">Sign Up Form</h1>
+    <div class="col-md-6">
+      <label for="first-name" class="form-label">First name</label>
+      <input type="text" class="form-control" id="first-name"  autocomplete="off">
+      <div class="valid-feedback" id="valid-first-name">
+        Looks good!
+      </div>
+      <div class="invalid-feedback" id="invalid-first-name">
+        Please enter a valid first name.
+        
+      </div>
+    </div>
+
+    <div class="col-md-6">
+      <label for="last-name" class="form-label">Last name</label>
+      <input type="text" class="form-control" id="last-name"  autocomplete="off">
+      <div class="valid-feedback" id="valid-last-name">
+        Looks good!
+      </div>
+      <div class="invalid-feedback" id="invalid-last-name">
+        Please enter a valid last name.
+      </div>
+    </div>
+
+    <div class="col-md-6">
+      <label for="email" class="form-label">Email</label>
+      <div class="input-group has-validation">
+        <span class="input-group-text" id="inputGroupPrepend">@</span>
+        <input type="text" class="form-control" id="email" aria-describedby="inputGroupPrepend" autocomplete="off">
+        <div class="valid-feedback" id="valid-email">
+          Looks good.
+        </div>
+      <div class="invalid-feedback" id="invalid-email"> 
+        Please enter a valid email address.
+      </div>
+      </div>
+    </div>
+
+    <div class="col-md-6">
+      <label for="phone-number" class="form-label">Phone Number</label>
+      <div class="input-group has-validation">
+        <span class="input-group-text" id="inputGroupPrepend">+91</span>
+        <input type="text" class="form-control" id="phone-number" aria-describedby="inputGroupPrepend" autocomplete="off">
+        <div class="valid-feedback" id="valid-phone-number">
+          Looks good.
+        </div>
+        <div class="invalid-feedback" id="invalid-phone-number">
+          Please enter a valid phone number.
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-6">
+      <label for="password" class="form-label">Password</label>
+      <input type="password" class="form-control" id="password" >
+      <div class="invalid-feedback" id="invalid-password">
+        Password should have at least 6 characters
+      </div>
+    </div>
+
+    <div class="col-md-6">
+      <label for="confirm-password" class="form-label">Confirm password</label>
+      <input type="password" class="form-control" id="confirm-password" >
+      <div class="invalid-feedback" id="invalid-confirm-password">
+        Password doesn't match.
+      </div>
+    </div>
+
+
+    <div class="col-12" style="text-align: center">
+      <button class="btn btn-secondary" type="button" onclick="validation()" >Sign up</button>
+    </div>
+  </form>
+</div>
+
+
+  <!--------------------------------------------------------- Login form ----------------------------------------------------------------->
+
+  <div id="login-form">
+    <form class="row g-3 justify-content-center" >
+      <h1 style="text-align: center;">Login Form</h1>
+      
+      <div class="col-md-8">
+        <label for="login-email" class="form-label">Email</label>
+        <div class="input-group has-validation">
+          <span class="input-group-text" id="inputGroupPrepend">@</span>
+          <input type="text" class="form-control" id="login-email" aria-describedby="inputGroupPrepend" autocomplete="off">
+          <div class="invalid-feedback">
+            Please enter a valid email.
+          </div>
+        </div>
+      </div>
+  
+  
+      <div class="col-md-8">
+        <label for="login-password" class="form-label">Password</label>
+        <input type="password" class="form-control" id="login-password" >
+        <div class="invalid-feedback">
+          Please enter a password
+        </div>
+      </div>
+  
+  
+      <div class="col-12" style="text-align: center">
+        <button class="btn btn-secondary" type="submit" onclick="login()">Login</button>
+      </div>
+    </form>
+  </div>
+  
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>

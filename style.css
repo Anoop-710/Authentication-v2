@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#sign-up-form{
+    width: 800px;
+    margin: 20px auto;
+}
+
+#login-form{
+    width: 800px;
+    margin: 20px auto;
+}
+
+
+#sign-up-form,#login-form{
+    display: none;
+}
+
+.header{
+    margin-top: 40px;
+    text-align: center;
+}
+
+.card{
+    margin-top: 40px;
+}
+
+.description{
+    text-align: center;
+    
+}
+
+
+.btn1{
+    display: flex;
+    justify-content: space-around;
+}
+
+#grid{
+    width: 99vw;
+    padding-left: 20px;
+}
+
+body{
+    background-color: black;
+    color: white;
+}
